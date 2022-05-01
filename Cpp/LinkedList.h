@@ -1,14 +1,6 @@
 
-class Node{ //Generic Node
-    public:
-    Node(int x){ //constructor
-        data = x;
-        next = NULL;
-    }
-    int data; //data
-
-    Node *next; //pointer to next node
-};
+#include "Node.h"
+//Must include the Generic Node class!
 
 
 class LinkedList{
@@ -92,3 +84,4 @@ class LinkedList{
 };
 
 
+//End of class definition
